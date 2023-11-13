@@ -10,7 +10,7 @@ The modified files are:
 
 Some parameters of the model can be modified from a Ground Control Station, like Mission Planner:
 - ATC_EQ_IGE:  model to use in the APMI. Values = {0: Disabled, 1: Coplanar, 2: Fully-Actuated}. Default value: 1
-- ATC_ALT_IGE: offset from the center of the solid defined in Optitrack (or similar) and the lower part of the UAV frame, in meters. Default: 0.2.
+- ATC_ALT_IGE: offset between the Z-origin of the Motion Capture system and the floor, in meters. Default: 0.2.
 - ATC_R_IGE:   radius of the propellers, in meters. Default: 0.1194.
 - ATC_C_IGE:   frame width, in meters. Default: 0.22.
 - ATC_D_IGE:   propeller spacing, in meters. Default: 0.28.
